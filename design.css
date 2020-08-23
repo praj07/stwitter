@@ -1,0 +1,42 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 175px;
+
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-content: center;
+  }
+  
+  input[type=submit] {
+    width: 10%;
+    background-color: #43ce21;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-content: center;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
